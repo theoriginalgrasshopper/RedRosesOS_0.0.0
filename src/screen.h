@@ -15,5 +15,6 @@ typedef struct {
     int y;
 } Vector2;
 // Vector2 font_dimensions = {8, 8};
+void print_char_at(char c, int x, int y, uint32_t color);
 
 #endif

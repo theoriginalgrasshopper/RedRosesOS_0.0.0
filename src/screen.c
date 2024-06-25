@@ -4,7 +4,6 @@
 #include "font.h"
 #include <stddef.h>
 //#include "main.c"
-void print_char_at(char c, int x, int y, uint32_t color);
 
 // FRABEBUFFER ADDRESS
 volatile uint32_t* fb_addr;
